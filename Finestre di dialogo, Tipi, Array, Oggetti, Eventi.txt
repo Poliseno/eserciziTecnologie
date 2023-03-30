@@ -1,0 +1,58 @@
+Esercizio 1
+
+Crea uno script che chieda all'utente di inserire 4 numeri; dopo che l'utente avrà inserito i 4 numeri dovrai stamparli sulla console in ordine decrescente (dal più grande al più piccolo).
+Dovrai validare l'input dell'utente in maniera tale da impedire l'inserimento di valori non numerici.
+
+
+
+Esercizio 2
+
+Dati gli oggetti
+{ base 4, altezza 5, numero_lati 3 } 
+e 
+{ base 4, altezza 5, numero_lati 4 }
+che rappresentano rispettivamente un triangolo ed un rettangolo, costruire uno script (da inserire in una pagina html) in cui, in base alle proprietà dell'oggetto, viene calcolata l'area del poligono e mostrata all'utente tramite un alert.
+
+
+
+Esercizio 3
+
+Realizzare una pagina html che contiene un input button e un input text.
+Per i due input dovrai gestire degli eventi
+input button al click devi valutare se il click è stato fatto col pulsante destro, sinistro o centrale (scrivi il risultato nella console oppure mostralo con un alert)
+input text al keydown devi valutare quale tasto è stato premuto e, se è una lettera, indicare se oltre alla lettera è stato premuto anche il tasto ctrl, il tasto shift o entrambi
+
+
+
+Esercizio 4
+
+
+Tenendo in considerazione che
+1 yard = 90 cm (3 piedi)
+1 piede = 30 cm (12 pollici)
+1 pollice = 2,5 cm
+Realizzare uno script (da inserire all'interno di una pagina html) che converta una misura in cm fornita in input dall'utente in yard, piedi e pollici in questa maniera
+1200 cm - 13 yard, 1 piede, 0 pollici
+1250 cm - 13 yard, 2 piedi, 8 pollici 
+
+
+
+Esercizio 5
+
+
+Devi gestire i dati dei clienti di un'autofficina; per ogni auto devi memorizzare
+nome del proprietario
+marca del mezzo
+modello del mezzo
+data immatricolazione
+data ultima revisione
+Costruisci un array di oggetti strutturati in maniera appropriata e popolalo con questi dati
+veicolo 1 Fiat Duna; proprietario Mario Rossi; data immatricolazione 4 Aprile 1993; data ultima revisione 3 Aprile 2022
+veicolo 2 Alfa Romeo Giulietta; proprietario Antonio Bianchi; data immatricolazione 3 Ottobre 2018; non ancora revisionato
+veicolo 3 Subaru Baracca; proprietario Luca Verdi; data immatricolazione 20 Dicembre 2016; ultima revisione 21 Dicembre 2020
+veicolo 4 Ford Focus; proprietario Marco Gialli;
+
+data immatricolazione 2 Febbraio 2019; data ultima revisione 3 Marzo 2022
+Da questo array ricava poi un array contenente i dati dei mezzi che necessitano di essere revisionati tenendo conto che i veicoli devono fare la revisione dopo 4 anni dalla data di immatricolazione e successivamente ogni 2 anni.
+
+Dovrai creare una funzione che itera l'array dei mezzi e, in base alle date di immatricolazione e revisione e dei criteri indicate, determini se il mezzo è da revisionare o meno.
